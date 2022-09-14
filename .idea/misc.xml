@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Projects/OIBGRIP-Calculator/app/src/main/res/drawable/border.xml" value="0.2075" />
+        <entry key="..\:/Android Projects/OIBGRIP-Calculator/app/src/main/res/drawable/buttonstyle.xml" value="0.2075" />
+        <entry key="..\:/Android Projects/OIBGRIP-Calculator/app/src/main/res/drawable/buttonstyle1.xml" value="0.2075" />
+        <entry key="..\:/Android Projects/OIBGRIP-Calculator/app/src/main/res/drawable/buttonstyle2.xml" value="0.2075" />
+        <entry key="..\:/Android Projects/OIBGRIP-Calculator/app/src/main/res/layout/activity_home.xml" value="0.27447916666666666" />
         <entry key="..\:/Android Projects/OIBGRIP-Calculator/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
       </map>
     </option>
