@@ -70,11 +70,20 @@ public class Home extends AppCompatActivity {
                        }
                    }
                 }else if (i == 2){
-                    memory = TVOutput.getText().toString();
-                    TVOutput.setText(memory.substring(0,memory.length()-1));
+
+                    if(TVOutput.getText().toString().equals("")){
+                        Toast.makeText(Home.this, "Please enter some input...!!", Toast.LENGTH_SHORT).show();
+                    }else{
+                        memory = TVOutput.getText().toString();
+                        TVOutput.setText(memory.substring(0,memory.length()-1));
+                    }
                 }else if (i == 1){
-                    Integer temp = Integer.parseInt(TVOutput.getText().toString());
-                    TVOutput.setText(String.valueOf(temp*temp));
+                    if(TVOutput.getText().toString().equals("")){
+                        Toast.makeText(Home.this, "Please enter some input...!!", Toast.LENGTH_SHORT).show();
+                    }else{
+                        Integer temp = Integer.parseInt(TVOutput.getText().toString());
+                        TVOutput.setText(String.valueOf(temp*temp));
+                    }
                 }
             }
         };
